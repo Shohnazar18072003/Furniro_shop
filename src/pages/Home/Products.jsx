@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import { img1 , img2 , img3 , img4 , img5 , img6 , img7 , img8 } from "../../../public"
 
 const Products = ({ product }) => {
 	return (

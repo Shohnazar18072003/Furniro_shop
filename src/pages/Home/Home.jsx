@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Products from "./Products";
+import { Dining , Living , Bedroom , Frame , Right_line , Room_2 , Room_3 , furnitures_img } from "../../../public"
 import './Home.scss'
 
 const Home = () => {
@@ -60,15 +61,15 @@ const Home = () => {
          </div>
          <ul className="browser_section_images">
            <li className='images_row'>
-            <img src="../../../public/img_1.png" alt='Dining image' />
+            <img src={Dining} alt='Dining image' />
             <h6 className="title">Dining</h6>
            </li>
            <li className='images_row'>
-            <img src="../../../public/img_2.png" alt="Living image" />
+            <img src={Living} alt="Living image" />
             <h6 className="title">Living</h6>
            </li>
            <li className='images_row'>
-            <img src="../../../public/img_3.png" alt="Bedroom image" />
+            <img src={Bedroom} alt="Bedroom image" />
             <h6 className="title">Bedroom</h6>
            </li>
          </ul>
@@ -116,13 +117,13 @@ const Home = () => {
         <div className="rooms_details">
           <div className="img1">
             <div className="rooms_about">
-              <img src="../../../public/Frame 3.png" alt="frame image" />
+              <img src={Frame} alt="frame image" />
               <p className="subtitle">Inner Peace</p>
             </div>
-            <div className="right_box"><img src="../../../public/Right 16px.svg" alt="right image" /></div>
+            <div className="right_box"><img src={Right_line} /></div>
           </div>
-          <img src="../../../public/room-2.jpg" alt="room image"  className='img22'/>
-          <img src="../../../public/room-3.jpg" alt="room image" className='img33' />
+          <img src={Room_2} alt="room image"  className='img22'/>
+          <img src={Room_3} alt="room image" className='img33' />
 
         </div>
         
@@ -137,7 +138,7 @@ const Home = () => {
             <p className="subtitle">Share your setup with</p>
             <h2 className="title">#FuniroFurniture</h2>
          </div>
-         <img src="../../../public/furnitures.png" alt="furnitures images" className='furnitures_img' />
+         <img src={furnitures_img} alt="furnitures images" className='furnitures_img' />
       </section>
       <p className="line1"></p>
     </div>

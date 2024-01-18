@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Shop.scss";
 import { Link } from "react-router-dom";
-import { view_list, big_round, filtering, guarantee, shipping, trophy, customer_support } from "../../../public/index";
+import { view_list, big_round, filtering, guarantee, shipping, trophy, customer_support , Logo_img } from "../../../public/index";
 import Products from "../Home/Products";
 import axios from "axios";
 
@@ -31,7 +31,7 @@ const Shop = () => {
       {/* HERO SHOP */}
 			<div className="hero-shop">
 				<div className="container">
-          <img src="../../../public/Logo.png" alt="Logo image" />
+          <img src={Logo_img} alt="Logo image" />
 					<h1>Shop</h1>
 					<p>
 						<span>

@@ -16,7 +16,18 @@ import trophy from "./trophy 1.png"
 import shipping from "./shipping.png"
 import guarantee from "./guarantee.png"
 import filtering from "./system-uicons_filtering.svg"
-
+import Hero_img from "./shop-hero.png"
+import Search from "./search_icon.svg"
+import Logo from "./Furniro_logo.png"
+import Dining from "./img_1.png"
+import Living from "./img_2.png"
+import Bedroom from "./img_3.png"
+import Frame from "./Frame 3.png"
+import Right_line from "./Right 16px.svg";
+import Room_2 from "./room-2.jpg"
+import Room_3 from "./room-3.jpg"
+import furnitures_img from "./furnitures.png"
+import Logo_img from "./Logo.png"
 
 
 
@@ -39,4 +50,16 @@ export {
   shipping,
   guarantee,
   filtering,
+  Hero_img,
+  Search,
+  Logo,
+  Dining,
+  Living,
+  Bedroom,
+  Frame,
+  Right_line, 
+  Room_2,
+  Room_3,
+  furnitures_img, 
+  Logo_img
 };

@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './Blog.scss'
+import { Logo_img } from '../../../public';
 
 const Blog = () => {
   return (
     <div className='blog'>
       <div className="hero-blog">
 				<div className="container">
-          <img src="../../../public/Logo.png" alt="" />
+          <img src={Logo_img} alt="Logo_img" />
 					<h1>Blog</h1>
 					<p>
 						<span>
